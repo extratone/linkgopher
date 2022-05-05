@@ -1,0 +1,6 @@
+- name: JSDoc Action
+  uses: andstor/jsdoc-action@v1.2.1
+with:
+    source_dir: .
+    recurse: true
+    output_dir: /docs
